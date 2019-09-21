@@ -15,7 +15,7 @@ class ZeroScann():
         
     def scan(self):
         # argument parser like shit
-        parser = argparse.ArgumentParser(prog="PosiX.py", description="Simple Find Shell in Website")
+        parser = argparse.ArgumentParser(prog="bd.py", description="Simple Find Shell in Website")
         parser.add_argument("-u", dest="domain", help="your url")
         parser.add_argument("-w", dest="wordlist", help="your wordlsit")
         args = parser.parse_args()
